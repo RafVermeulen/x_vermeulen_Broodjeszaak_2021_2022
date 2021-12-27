@@ -1,0 +1,15 @@
+package model.database.observer;
+
+public enum BestellingEventsEnum {
+    START_BESTELLING,
+    TOEVOEGEN_BROODJE,
+    TOEVOEGEN_IDENTIEK_BROODJE,
+    VERWIJDER_BROODJE,
+    TOEVOEGEN_BELEG,
+    ANNULEREN,
+    AFSLUITEN_BESTELLING,
+    BETALEN,
+    ZEND_NAAR_KEUKEN,
+    START_BEREIDING,
+    AFWERKEN;
+}
